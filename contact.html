@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- File Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- Link Iconscout Library -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Link Swiper Library Css-->
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <title>School - Contact</title>
+</head>
+<body>
+    <!-- Start Nav Bar -->
+    <div class="nav-bar" id="nav">
+        <div class="container" id="container-nav">
+            <div class="content-nav-bar">
+                <a href="#"><h2>School</h2></a>
+                <ul class="links" id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <div class="parent-button-sign-up-and-login">
+                        <a href="sign-up.html">Sign Up</a>
+                        <a href="login.html">Login</a>
+                    </div>
+                </ul>
+                <i id="button-open" class="uil uil-bars icon bars"></i>
+                <i id="button-close" class="uil uil-multiply icon"></i>
+            </div>
+        </div>
+    </div>
+    <!-- End Nav Bar -->
+
+    <!-- Start Contact Section -->
+    <div class="contact">
+        <div class="container">
+            <div class="content-contact">
+                <div class="parent-image-and-information">
+                    <img src="images/contact.png" alt="">
+                    <div class="box-information-contact">
+                        <h1>Contact</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consect adipisic elits Totam quas numquam velAb, iusto placeat quos numquam.
+                        </p>
+                        <div class="information-contact">
+                            <a href="#"><i class="uil uil-outgoing-call"></i> +212627891654</a>
+                            <a href="#"><i class="uil uil-envelope"></i> School@Business.com</a>
+                            <a href="#"><i class="uil uil-map-marker"></i> Sale, Morocco</a>
+                        </div>
+                        <div class="social-media">
+                            <a href="#"><i class="uil uil-facebook"></i></a>
+                            <a href="#"><i class="uil uil-instagram"></i></a>
+                            <a href="#"><i class="uil uil-linkedin"></i></a>
+                            <a href="#"><i class="uil uil-twitter-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <form class="parent-form-and-inputs" action="https://formspree.io/f/mknyywle" method="POST">
+                    <div class="parent-input-name-complate">   
+                        <input type="text" name="fris_name" placeholder="Frist Name">
+                        <input type="text" name="last_name" placeholder="Last Name">
+                    </div>
+                    <input type="email" name="email" placeholder="Your Email">
+                    <textarea name="message" placeholder="Your Message" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Section -->
+
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="content-footer">
+                <div class="box-footer">
+                    <h2>School</h2>
+                    <p>    
+                        Lorem ipsum dolor sitamet consecte adipisi elitfas Nostr obcaecat ullam nihil suscipit hicedre atque conseque.
+                    </p>
+                    <a href="#">Learn More </a>
+                </div>
+                <div class="box-footer">
+                    <h2>Premalinks</h2>
+                    <div class="links-footer">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Courses</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <div class="box-footer">
+                    <h2>Primacy</h2>
+                    <div class="links-footer">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms Conditions</a>
+                        <a href="#">Refund Policy</a>
+                    </div>
+                </div>
+                <div class="box-footer">
+                    <h2>Contact Us</h2>
+                    <div class="links-footer">
+                        <a href="#">School@Business.com</a>
+                        <a href="#">+212627891654</a>
+                    </div>
+                    <div class="social-media">
+                        <a href="#"><i class="uil uil-facebook"></i></a>
+                        <a href="#"><i class="uil uil-instagram"></i></a>
+                        <a href="#"><i class="uil uil-linkedin"></i></a>
+                        <a href="#"><i class="uil uil-twitter-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-footer">
+                <span>&copy; <a href="#">School</a> All Rights Reserved 2022</span>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Button Scroll To Top -->
+    <i class="uil uil-arrow-up" id="button-scroll-to-top"></i>
+    <!-- Button Scroll To Top -->
+
+    <!-- Javascript File -->
+    <script src="main.js"></script>
+    <!-- Link Swiper Library js -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                breakpoints: {
+                    767: {
+                            slidesPerView: 2,
+                    }
+                }
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+/* Start Login */
+.login .content-login {
+    width: 100%;
+    height: calc(100vh - 70px);
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .login .content-login {
+        flex-direction: column;
+        row-gap: 30px;
+        height: auto;
+        padding: 0 0 var(--basic-padding); 
+    }
+}
+
+.login .content-login .image-parent {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .login .content-login .image-parent {
+        width: 100%;
+    }
+}
+
+.login .content-login .image-parent img {
+    width: 470px;
+    max-width: 100%;
+}
+
+.login .content-login .form-login {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .login .content-login .form-login {
+        width: 100%;
+    }
+}
+
+.login .content-login .form-login .form {
+    width: 400px;
+    max-width: 90%;
+    background-color: var(--color-basic-3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 18px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.login .form-login .form h1 {
+    color: var(--basic-color-1);
+}
+
+.login .form-login .form .form-control {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+    width: 100%;
+    position: relative;
+}
+
+.login .form-login .form .form-control input {
+    background-color: var(--color-basic-1);
+    color: var(--color-danger);
+}    
+
+.login .form-login .form .form-control.success input {
+    border: 2px solid #2ecc71;
+}
+
+.login .form-login .form .form-control.error input {
+    border: 2px solid #ff1900;
+}
+
+.login .form-login .form .form-control label {
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--basic-color-4);
+}
+
+.login .form-login .form .form-control input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+} 
+
+.login .form-login .form .form-control i {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    visibility: hidden;
+    font-size: 25px;
+} 
+
+.login .form-login .form .form-control.success i.uil-check-circle {
+    visibility: visible;
+    color: #2ecc71;
+}
+
+.login .form-login .form .form-control.error i.uil-exclamation-circle {
+    visibility: visible;
+    color: #ff1900;
+}
+
+.login .form-login .form .form-control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: -17px;
+} 
+
+.login .form-login .form .form-control.error small {
+    visibility: visible;
+    color: #ff1900;
+} 
+
+.login .form-login .form .remember-me {
+    padding-left: 3px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.login .form-login .form .remember-me input[type="checkbox"] {
+    transform: scale(1.5);
+    outline: 0;
+    border: 0;
+    padding-left: 5px;
+}
+
+.login .form-login .form .remember-me input[type="checkbox"]:checked + label {
+    color: var(--color-danger);
+}
+
+.login .form-login .form input[type="submit"] {
+    padding: 10px 20px;
+    outline: 0;
+    border: 0;
+    width: 100%;
+    font-weight: bold;
+    background-color: var(--color-danger);
+    color: var(--color-white);
+    cursor: pointer;
+    font-size: 17px;
+}
+/* Start Login */
